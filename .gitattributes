@@ -10,3 +10,4 @@ tests export-ignore
 wp-org-assets export-ignore
 deploy.sh export-ignore
 assets/src export-ignore
+webpack.config.js export-ignore

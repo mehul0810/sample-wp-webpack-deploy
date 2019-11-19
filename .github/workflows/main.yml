@@ -8,13 +8,7 @@ jobs:
   build-and-deploy:
     name: Build and Deploy
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@master
       - name: Build
         run: npm install && npm run production
-      - name: Deploy
-        run: chmod +x ./deploy.sh && ./deploy.sh
-        env:
-          SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
-          SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}

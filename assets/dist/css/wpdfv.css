@@ -1,0 +1,55 @@
+.pull-left {
+  float: left; }
+
+.pull-right {
+  float: right; }
+
+.text-right {
+  text-align: right; }
+
+.text-center {
+  text-align: center; }
+
+.text-left {
+  text-align: left; }
+
+.wpdfv-fullscreen-overlay-container {
+  width: 100%;
+  display: block;
+  height: 100%;
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999999; }
+  .wpdfv-fullscreen-overlay-container .wpdfv-icon {
+    width: 24px; }
+  .wpdfv-fullscreen-overlay-container .wpdfv-container {
+    width: 1024px; }
+  .wpdfv-fullscreen-overlay-container .wpdfv-fullscreen-overlay-header {
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid #f9f9f9; }
+    .wpdfv-fullscreen-overlay-container .wpdfv-fullscreen-overlay-header .wpdfv-actions {
+      display: flex;
+      align-items: center; }
+      .wpdfv-fullscreen-overlay-container .wpdfv-fullscreen-overlay-header .wpdfv-actions .wpdfv-overlay-btn {
+        display: block;
+        padding: 20px;
+        cursor: pointer;
+        border-left: 1px solid #f9f9f9; }
+      .wpdfv-fullscreen-overlay-container .wpdfv-fullscreen-overlay-header .wpdfv-actions .wpdfv-overlay-print {
+        display: flex;
+        align-items: center; }
+        .wpdfv-fullscreen-overlay-container .wpdfv-fullscreen-overlay-header .wpdfv-actions .wpdfv-overlay-print .wpdfv-icon {
+          width: 32px; }
+      .wpdfv-fullscreen-overlay-container .wpdfv-fullscreen-overlay-header .wpdfv-actions .wpdfv-overlay-close .wpdfv-icon {
+        width: 32px; }
+  .wpdfv-fullscreen-overlay-container .wpdfv-overlay-wrap {
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+    height: 85%; }
+
+
+/*# sourceMappingURL=wpdfv.css.map*/

@@ -129,7 +129,7 @@ if ( ! class_exists( 'WPDFV' ) ) {
 	     */
 	    public function setup_constants() {
 		    if ( ! defined( 'WPDFV_VERSION' ) ) {
-			    define( 'WPDFV_VERSION', '1.4.2' );
+			    define( 'WPDFV_VERSION', __STABLE_TAG__ );
 		    }
 
 		    if ( ! defined( 'WPDFV_PLUGIN_FILE' ) ) {

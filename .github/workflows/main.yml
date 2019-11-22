@@ -9,5 +9,5 @@ jobs:
     name: Build and Deploy
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/action-wordpress-plugin-webpack-build@master
+      - uses: mehul0810/action-wordpress-plugin-webpack-build@master
       - name: Build
